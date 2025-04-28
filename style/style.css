@@ -1,7 +1,7 @@
 /* General Styles */
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #38e715e3;
+    background-color: #47915d;
     color: #000000;
     margin: 0;
     padding: 0;
@@ -86,7 +86,7 @@ nav a:hover {
 
 /* Form Styles */
 .form-container {
-    background: #38e715e3;
+    background: #0f613be3;
     padding: 25px;
     border-radius: 12px;
     display: flex;
@@ -126,7 +126,7 @@ button:hover {
 /* CTA Buttons */
 .cta a {
     display: inline-block;
-    background-color: #38e273;
+    background-color: #47915d;
     color: #000;
     padding: 10px 20px;
     margin: 10px 5px;
@@ -137,7 +137,7 @@ button:hover {
 }
 
 .cta a:hover {
-    background-color: #2ad161;
+    background-color: #2f795a;
 }
 
 /* Footer */
@@ -149,10 +149,37 @@ footer {
     font-size: 14px;
 }
 
+/* Headspace Section Above Nav */
+#headspace {
+    background-color: #ffffff; /* change to any color you like */
+    text-align: left;
+    padding: 20px 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    z-index: 1001;
+}
+
+.headspace-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 /* ===================== */
 /* MOBILE RESPONSIVENESS */
 /* ===================== */
+/* Mobile adjustments */
 @media (max-width: 768px) {
+    #headspace {
+        padding: 15px 10px;
+    }
+
+    #headspace img {
+        max-width: 80%;
+    }
+
+    #headspace p {
+        font-size: 16px;
+    }
+
     header {
         justify-content: center;
         padding: 20px;
