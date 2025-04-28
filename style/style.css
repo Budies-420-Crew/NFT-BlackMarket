@@ -86,7 +86,7 @@ nav a:hover {
 
 /* Form Styles */
 .form-container {
-    background: #0f613be3;
+    background: #47915d;
     padding: 25px;
     border-radius: 12px;
     display: flex;
@@ -191,7 +191,7 @@ footer {
 
     nav {
         flex-direction: column;
-        gap: 15px;
+        gap: 5px;
         padding: 10px 0;
     }
 
